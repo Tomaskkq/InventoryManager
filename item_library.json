@@ -1,0 +1,26 @@
+{
+    "items": [
+      {
+        "item_id": 100,
+        "name": "Wooden sword",
+        "item_type": "Weapon",
+        "description": "a training sword",
+        "edible": false,
+        "wearable": false,
+        "holdable": true,
+        "usable": false,
+        "tradable": true
+      },
+      {
+        "item_id": 101,
+        "name": "Knight's helmet",
+        "item_type": "Armor",
+        "description": "a combat helmet worn by knights",
+        "edible": false,
+        "wearable": true,
+        "holdable": false,
+        "usable": false,
+        "tradable": true
+      }
+    ]
+}

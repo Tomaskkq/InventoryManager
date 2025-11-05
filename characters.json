@@ -1,0 +1,64 @@
+{
+  "characters": [
+      {
+        "name": "Jhon",
+        "class": "Mage",
+        "hp": 20,
+        "mp": 30,
+        "head_slot": "None",
+        "torso_slot": "None",
+        "left_hand": "None",
+        "right_hand": "None",
+        "items": [
+          {
+            "item_id": 1,
+            "name": "Apple",
+            "item_type": "Food",
+            "description": "simply an apple",
+            "quantity": 1,
+            "edible": true,
+            "wearable": false,
+            "holdable": false,
+            "usable": false,
+            "tradable": true
+          },
+          {
+            "item_id": 2,
+            "name": "Book of spells",
+            "item_type": "Knowledge",
+            "description": "a book that contains magical spells (use to learn magic)",
+            "quantity": 1,
+            "edible": false,
+            "wearable": false,
+            "holdable": false,
+            "usable": true,
+            "tradable": true
+          }
+        ]
+      },
+      {
+        "name": "Peter",
+        "class": "Knight",
+        "hp": 35,
+        "mp": 10,
+        "head_slot": "None",
+        "torso_slot": "None",
+        "left_hand": "None",
+        "right_hand": "None",
+        "items": [
+          {
+            "item_id": 3,
+            "name": "Health potion",
+            "item_type": "Consumable",
+            "description": "restores 5 hp",
+            "quantity": 2,
+            "edible": false,
+            "wearable": false,
+            "holdable": false,
+            "usable": true,
+            "tradable": true
+          }
+        ]
+      }
+    ]
+}
