@@ -7,9 +7,9 @@
         "description": "a training sword",
         "edible": false,
         "wearable": false,
-        "holdable": true,
+        "equippable": true,
         "usable": false,
-        "tradable": true
+        "drinkable": false
       },
       {
         "item_id": 101,
@@ -18,9 +18,9 @@
         "description": "a combat helmet worn by knights",
         "edible": false,
         "wearable": true,
-        "holdable": false,
+        "equippable": false,
         "usable": false,
-        "tradable": true
+        "drinkable": false
       }
     ]
 }

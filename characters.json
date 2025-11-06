@@ -18,9 +18,9 @@
             "quantity": 1,
             "edible": true,
             "wearable": false,
-            "holdable": false,
+            "equippable": false,
             "usable": false,
-            "tradable": true
+            "drinkable": false
           },
           {
             "item_id": 2,
@@ -30,9 +30,9 @@
             "quantity": 1,
             "edible": false,
             "wearable": false,
-            "holdable": false,
+            "equippable": false,
             "usable": true,
-            "tradable": true
+            "drinkable": false
           }
         ]
       },
@@ -54,9 +54,9 @@
             "quantity": 2,
             "edible": false,
             "wearable": false,
-            "holdable": false,
-            "usable": true,
-            "tradable": true
+            "equippable": false,
+            "usable": false,
+            "drinkable": true
           }
         ]
       }
