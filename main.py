@@ -836,16 +836,16 @@ while True:
                     items_list.append(character_item_to_dict(item))
 
                 head_slot = curNode.value.head_slot
-                if head_slot != "None":
+                if isinstance(head_slot, CharacterItem):
                     head_slot = character_item_to_dict(head_slot)
                 torso_slot = curNode.value.torso_slot
-                if torso_slot != "None":
+                if isinstance(torso_slot, CharacterItem):
                     torso_slot = character_item_to_dict(torso_slot)
                 left_hand = curNode.value.left_hand
-                if left_hand != "None":
+                if isinstance(left_hand, CharacterItem):
                     left_hand = character_item_to_dict(left_hand)
                 right_hand = curNode.value.right_hand
-                if right_hand != "None":
+                if isinstance(right_hand, CharacterItem):
                     right_hand = character_item_to_dict(right_hand)
 
                 new_character_lst.append({"name": curNode.value.name, "class": curNode.value.character_class,
