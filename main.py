@@ -153,7 +153,6 @@ for character in data["characters"]:
                                  torso_slot, left_hand,
                                  right_hand, character_item_lst)
     character_lst.append(character_object)
-
 while True:
     print("1 - open character list, 2 - open item library, 3 - exit\nInput command: ")
     command = input()
@@ -365,6 +364,8 @@ while True:
                                             if curItemNode.value.quantity == 1:
                                                 cur_character_item_lst.remove(curItemNode)
                                                 curItemNode = cur_character_item_lst.first
+                                            else:
+                                                curItemNode.value.quantity-=1
 
                                         elif action == "5":
                                             print(curNode.value.name + " uses " + curItemNode.value.name.lower() + "\n")
@@ -375,6 +376,8 @@ while True:
                                             if curItemNode.value.quantity == 1:
                                                 cur_character_item_lst.remove(curItemNode)
                                                 curItemNode = cur_character_item_lst.first
+                                            else:
+                                                curItemNode.value.quantity-=1
 
                                         elif action == "6":
                                             continue
