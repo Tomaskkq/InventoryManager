@@ -400,6 +400,7 @@ while True:
                                     if item_library_command == "1":
                                         curLibraryItemNode = item_library_lst.first
 
+
                                     elif item_library_command == "2":
                                         if curLibraryItemNode.next is not None:
                                             curLibraryItemNode = curLibraryItemNode.next
@@ -537,7 +538,7 @@ while True:
 
                             elif choice == "3":
                                 if curTorsoItemNode is not None:
-                                    if curNode.value.head_slot == "None":
+                                    if curNode.value.torso_slot == "None":
                                         print(curNode.value.name + " puts on " + curTorsoItemNode.value.name.lower() + "\n")
                                         curNode.value.torso_slot = get_single_item(curTorsoItemNode)
                                         curNode.value.defense += curTorsoItemNode.value.defense_value
